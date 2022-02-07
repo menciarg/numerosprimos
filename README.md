@@ -12,3 +12,10 @@ Ejemplos:
 Referencia documentada de: [UNAM](http://prepa8.unam.mx/academia/colegios/matematicas/paginacolmate/applets/matematicas_IV/Applets_Geogebra/primos.html#:~:text=Los%20n%C3%BAmeros%20primos%20son%20todos,la%20unidad%20y%20ellos%20mismos.&text=El%20t%C3%A9rmino%20primo%20deriva%20del,como%20producto%20de%20n%C3%BAmeros%20primos.)
  
 # Descripción del código
+La variable n inicializada en 100, es para encontrar dentro de los primeros 100 numeros naturales, aquellos que son primos
+Se utiliza un diccionario para meter el número como llave y todos los valores que tienen división exacta;
+if (i%x==0):
+Esto valores son almacenados en una lista _divisor=[ ]_ por cada numero natural
+
+Por último se recorre todo el diccionario y se comprueba que llave tiene solo dos divisores 
+
