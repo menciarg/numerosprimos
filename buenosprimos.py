@@ -1,4 +1,4 @@
-n=21
+n=100
 cont=0
 primos={}
 for i in range (1, n+1):
